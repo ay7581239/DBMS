@@ -1,0 +1,5 @@
+mysql> create database abhishek;
+//Query OK, 1 row affected (0.01 sec)
+
+mysql> use abhishek;
+//Database changed
