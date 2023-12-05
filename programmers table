@@ -1,0 +1,26 @@
+CREATE TABLE Programmers (
+    `NAME` VARCHAR(8) NOT NULL,
+    DOB DATE NOT NULL,
+    DOJ DATE NOT NULL,
+    SEX VARCHAR(1) NOT NULL,
+    PROF1 VARCHAR(8),
+    PROF2 VARCHAR(8),
+    SALARY DECIMAL(4, 0) NOT NULL
+);
+
+INSERT INTO Programmers (NAME, DOB, DOJ, SEX, PROF1, PROF2, SALARY)
+VALUES
+('Anand', '1966-04-21', '1992-04-21', 'M', 'Pascal', 'Basic', 3200),
+('Altaf', '1964-07-02', '1990-11-13', 'M', 'Clipper', 'Cobol', 2800),
+('Jagadesh', '1970-10-06', '1994-10-04', 'M', 'Oracle', 'Java', 4100),
+('Juliana', '1968-01-31', '1990-04-21', 'F', 'Cobol', 'Dbase', 3000),
+('Kamala', '1968-10-30', '1992-01-02', 'F', 'C', 'Dbase', 2900),
+('Mary', '1970-06-24', '1991-02-01', 'F', 'C++', 'Oracle', 4500),
+('Nelson', '1965-09-11', '1989-10-11', 'M', 'Cobol', 'Dbase', 2500),
+('Partick', '1965-11-19', '1990-04-21', 'M', 'Pascal', 'Clipper', 2800),
+('Qadir', '1965-08-31', '1993-04-21', 'M', 'Assembly', 'C', 3000),
+('Ramesh', '1967-05-03', '1991-02-28', 'M', 'Pascal', 'Dbase', 3200),
+('Rebecca', '1967-01-01', '1990-12-01', 'F', 'Basic', 'Cobol', 2500),
+('Remitha', '1970-04-19', '1993-04-20', 'F', 'C', 'Assembly', 3600),
+('Revathi', '1969-12-02', '1992-01-02', 'F', 'Pascal', 'Basic', 3700),
+('Vijaya', '1965-12-14', '1992-05-02', 'F', 'Foxpro', 'C', 3500);
